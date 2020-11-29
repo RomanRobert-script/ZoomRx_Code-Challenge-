@@ -1,0 +1,142 @@
+.active {
+	display: inline-table;
+	box-shadow: 0px 1px 27px 0px rgba(74, 74, 74, 0.75);
+	-webkit-box-shadow: 0px 1px 27px 0px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow: 0px 1px 27px 0px rgba(74, 74, 74, 0.75);
+	margin: 25px;
+	padding: 25px;
+}
+
+.remove {
+	background: unset;
+	border: solid 2px #eeee;
+	float: right;
+	margin: 0;
+	color: #000;
+}
+
+#displayCount {
+	float: left;
+}
+
+.txtare {
+	margin: 20px 0;
+}
+
+#btnAdd,
+button {
+	float: right;
+	background: unset;
+	border: solid 1px #eee;
+	width: 135px;
+	text-align: left;
+	padding: 10px 7px;
+	outline: unset;
+	cursor: pointer;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+[class*="indexTex"] {
+	float: left;
+	color: #000;
+}
+
+.txtinner textarea {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.txtinner {
+	padding: 0;
+	margin-top: 45px;
+}
+
+.txtinner li {
+	width: 300px;
+	height: 150px;
+	border: solid 1px #eee;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+[contenteditable] {
+	outline: 0px solid transparent;
+}
+
+.todo {
+	border: solid 1px #eee;
+	background: #79C03B;
+}
+
+.todo section {
+	padding: 2px 35px;
+}
+
+.todo section h1 {
+	color: #fff;
+}
+
+#title {
+	padding: 15px;
+	width: 600px;
+	border: solid 1px #eee;
+}
+
+#content {
+	padding: 15px;
+	width: 600px;
+	border: solid 1px #eee;
+}
+
+#add-task {
+	float: left;
+	color: #fff;
+}
+
+#add-task:hover {
+	background-color: #fff;
+	color: #79C03B;
+}
+
+#btnAdd:hover {
+	background-color: #79C03B;
+	color: #fff;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="indexTex"]:hover {
+	background-color: #79C03B;
+	color: #fff;
+}
+
+#timepic h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+	font-size: 15px;
+	padding-right: 35px;
+	color: #fff;
+}
+
+#timepic p {
+	display: inline-block;
+	color: #fff;
+}
+
+#timepic h1 {
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+}
+
+#timepic button {
+	margin-left: 45px;
+	margin-top: 0;
+	color: #fff;
+}
